@@ -33,12 +33,15 @@ Say you want to append a list of objects to be stored in your Realm, we have a s
 `func appendToList<T: Object>(list: List<T>?, with items: [T])`
 
 There is also a function to help you verify the existence of an object you created;
+
 `objectExists(withPrimaryKey primaryKey: Int) -> Bool`
 
 Along with some Error handling methods;
+
 `func observeRealmError(in vc: UIViewController, completion: @escaping (Error?) -> Void)`
 
 and
+
 `func post(_ error: Error)`
 
 
