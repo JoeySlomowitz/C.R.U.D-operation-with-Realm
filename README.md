@@ -14,10 +14,10 @@ Otherwise, there is a `ViewController.swift` file and a `Pokemon.swift` file tha
 
 ### Quick note on these functions; ###
 
-We have a  "Create":    ` func create<T: Object>(object: T)`
-A "Read"  `func read<T: Object>(object: T.Type) -> Results<T>!`
-An "Update"  `func update<T: Object>(object: T, with dictionary: [String: Any?])`
-And a "Delete"  `func delete<T: Object>(_ object: T)`
+We have a  "Create":    ` func create<T: Object>(object: T)`   \n
+A "Read"  `func read<T: Object>(object: T.Type) -> Results<T>!`  \n
+An "Update"  `func update<T: Object>(object: T, with dictionary: [String: Any?])`  \n
+And a "Delete"  `func delete<T: Object>(_ object: T)`  \n
 
 Note:  All of these functions are using `Generics`;  these will allow you to pass in any type of object you want to be stored inside your Realm.
 
