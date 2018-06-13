@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 
 
-//: Mark - Example - The following is an example of a class that we want to store as a Realm Object.
+//: Mark - Example - The following is an example of a model class that we want to store as a Realm Object.
 
 // NB: - Objects that need to be storable in Realm need to be given the following syntax.  '@objcMembers' before the class to expose the object to the objective C runtime (Realm is largely built on objective C).  The class must also conform to 'Object' - which is a type created by Realm.
 

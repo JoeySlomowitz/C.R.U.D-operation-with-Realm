@@ -13,7 +13,7 @@
 		F4D4508720D0E6AE00C4D07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D4508520D0E6AE00C4D07D /* LaunchScreen.storyboard */; };
 		F4D4508F20D0E6E500C4D07D /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D4508E20D0E6E500C4D07D /* RealmService.swift */; };
 		F4D4509120D0E75A00C4D07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D4509020D0E75A00C4D07D /* ViewController.swift */; };
-		F4D4509320D0EA8E00C4D07D /* ModeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D4509220D0EA8E00C4D07D /* ModeExample.swift */; };
+		F4D4509320D0EA8E00C4D07D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D4509220D0EA8E00C4D07D /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		F4D4508820D0E6AE00C4D07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D4508E20D0E6E500C4D07D /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		F4D4509020D0E75A00C4D07D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4D4509220D0EA8E00C4D07D /* ModeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeExample.swift; sourceTree = "<group>"; };
+		F4D4509220D0EA8E00C4D07D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				F4D4507C20D0E6A900C4D07D /* AppDelegate.swift */,
 				F4D4508E20D0E6E500C4D07D /* RealmService.swift */,
 				F4D4509020D0E75A00C4D07D /* ViewController.swift */,
-				F4D4509220D0EA8E00C4D07D /* ModeExample.swift */,
+				F4D4509220D0EA8E00C4D07D /* Pokemon.swift */,
 				F4D4508020D0E6A900C4D07D /* Main.storyboard */,
 				F4D4508320D0E6AE00C4D07D /* Assets.xcassets */,
 				F4D4508520D0E6AE00C4D07D /* LaunchScreen.storyboard */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D4509120D0E75A00C4D07D /* ViewController.swift in Sources */,
-				F4D4509320D0EA8E00C4D07D /* ModeExample.swift in Sources */,
+				F4D4509320D0EA8E00C4D07D /* Pokemon.swift in Sources */,
 				F4D4507D20D0E6A900C4D07D /* AppDelegate.swift in Sources */,
 				F4D4508F20D0E6E500C4D07D /* RealmService.swift in Sources */,
 			);
